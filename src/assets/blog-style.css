@@ -1,0 +1,61 @@
+ .blogBannerImg {
+     height: 500px;
+     background: #eee;
+     max-height: 70vh;
+ }
+
+ .aurthorImg {
+     background: #eee;
+     min-height: 300px;
+ }
+
+ ul li{
+     list-style: none;
+ }
+
+ .rightPart {
+    padding-top: 55px;
+    position: sticky;
+    top: 0px;
+}
+
+.userBlogImgHolder{
+    min-height: 200px;
+    min-width: 300px;
+}
+
+.allBlogsList a, .userBlogList a{
+    color:black;
+}
+
+ .blueGrad {
+     background: rgb(43, 61, 219);
+     background: linear-gradient(135deg, rgba(43, 61, 219, 1) 0%, rgba(198, 107, 188, 1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b3ddb', endColorstr='#c66bbc', GradientType=1);
+
+ }
+
+.noOverFlow{
+    overflow: hidden;
+}
+
+.userPage{
+    width: 300px;
+    height: 100vh;
+}
+
+
+.userReport{
+    width:calc(100% - 300px);
+    height: 100vh;
+}
+
+.uImg{
+    background: #eee;
+    min-height: 200px;
+}
+
+
+.userReport .card{
+    width: 250px;
+}
